@@ -1,59 +1,20 @@
-## Introduction
+You can set the volume on the micro:bit to make sounds louder or quieter.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You can find the `set volume`{:class='microbitmusic'} block inside the `Music`{:class='microbitmusic'} menu.
 
-### What you will make
+<img src="images/music-menu.png" alt="Music menu expanded showing the `set volume` block highlighted." width="350"/>
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+To use it, drag it above a `play`{:class='microbitmusic'} block.
+In this example a `play melody`{:class='microbitmusic'} block has been used inside an `on pressed`{:class='microbitinput'} block.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+<div style="position:relative;height:calc(100px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_PfzcwoaCeTgv" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+You can increase or decrease the volume on the block. Drag the slider from left to right to do this.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+<img src="images/volume-slider.gif" alt="Animation showing the drop down menu on the `on button pressed` block. Button B is chosen and the block is no longer greyed out." width="350"/>
 
-+ A computer or tablet capable of running Scratch 3
+### Setting the volume for V1 users
 
-### Software
+If you are using a micro:bit V1, there is no speaker to play the sounds, instead you have to attach headphones to the GPIO pins.
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+Take a look at the [guide from micro:bit to help you attach your headphones](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}
