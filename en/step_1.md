@@ -7,7 +7,12 @@ You can find the `set volume`{:class='microbitmusic'} block inside the `Music`{:
 To use it, drag it above a `play`{:class='microbitmusic'} block.
 In this example a `play melody`{:class='microbitmusic'} block has been used inside an `on pressed`{:class='microbitinput'} block.
 
-<div style="position:relative;height:calc(100px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_PfzcwoaCeTgv" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    music.setVolume(128)
+    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.InBackground)
+})
+```
 
 You can increase or decrease the volume on the block. Drag the slider from left to right to do this.
 
