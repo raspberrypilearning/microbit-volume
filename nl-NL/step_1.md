@@ -1,11 +1,11 @@
-You can set the volume on the micro:bit to make sounds louder or quieter.
+Je kunt het volume instellen op de micro:bit om geluiden harder of zachter te maken.
 
-You can find the `set volume`{:class='microbitmusic'} block in the `Music`{:class='microbitmusic'} menu.
+Je kunt het blok `set volume`{:class='microbitmusic'} vinden in het `Muziek`{:class='microbitmusic'} menu.
 
 <img src="images/music-menu.png" alt="The Music menu expanded, with the `set volume` block highlighted." width="350"/>
 
-To use the `set volume`{:class='microbitmusic'} block, drag it above a `play`{:class='microbitmusic'} block.
-In this example, a `play melody`{:class='microbitmusic'} block has been used inside an `on pressed`{:class='microbitinput'} block.
+Om het `set volume`{:class='microbitmusic'} blok te gebruiken, sleep je het boven een `play`{:class='microbitmusic'} blok.
+In dit voorbeeld is een `play melody`{:class='microbitmusic'} blok gebruikt in een `bij logo ingedrukt`{:class='microbitinput'} blok.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -14,12 +14,12 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 ```
 
-You can increase or decrease the volume by dragging the slider from left to right.
+Je kunt het volume verhogen of verlagen door de schuifregelaar van links naar rechts te slepen.
 
 <img src="images/volume-slider.gif" alt="Animation showing the drop-down slider on the 'set volume' block. The value is clicked to reveal the slider and the volume is adjusted by moving the slider to the left or right." width="350"/>
 
-### Setting the volume for V1 users
+### Het volume instellen voor V1-gebruikers
 
-If you are using a micro:bit V1, there is no speaker to play the sounds, instead you have to attach headphones to the GPIO pins.
+Als je een micro:bit V1 gebruikt, is er geen luidspreker om de geluiden af te spelen, maar moet je een koptelefoon op de GPIO-pinnen aansluiten.
 
-Take a look at the [guide from micro:bit to help you attach your headphones](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="\_blank"}.
+Bekijk de [gids van de micro:bit om je te helpen je koptelefoon aan te sluiten](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="\_blank"}.
