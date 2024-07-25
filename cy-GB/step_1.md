@@ -22,4 +22,4 @@ You can increase or decrease the volume by dragging the slider from left to righ
 
 If you are using a micro:bit V1, there is no speaker to play the sounds, instead you have to attach headphones to the GPIO pins.
 
-Take a look at the [guide from micro:bit to help you attach your headphones](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="\_blank"}.
+Take a look at the [guide from micro:bit to help you attach your headphones](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
