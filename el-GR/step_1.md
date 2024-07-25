@@ -1,6 +1,6 @@
 Μπορείς να ρυθμίσεις την ένταση στο micro:bit για να κάνεις τους ήχους πιο δυνατούς ή πιο ήσυχους.
 
-Μπορείς να βρεις το μπλοκ `set volume`{:class='microbitmusic'} στο μενού `Μουσική`{:class='microbitbasic'}.
+Μπορείς να βρεις το μπλοκ `set volume`{:class='microbitmusic'} στο μενού `Μουσική`{:class='microbitmusic'}.
 
 <img src="images/music-menu.png" alt="The Music menu expanded, with the `set volume` block highlighted." width="350"/>
 
