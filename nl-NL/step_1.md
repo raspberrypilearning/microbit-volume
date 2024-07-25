@@ -22,4 +22,4 @@ Je kunt het volume verhogen of verlagen door de schuifregelaar van links naar re
 
 Als je een micro:bit V1 gebruikt, is er geen luidspreker om de geluiden af te spelen, maar moet je een koptelefoon op de GPIO-pinnen aansluiten.
 
-Bekijk de [gids van de micro:bit om je te helpen je koptelefoon aan te sluiten](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="\_blank"}.
+Bekijk de [gids van de micro:bit om je te helpen je koptelefoon aan te sluiten](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
