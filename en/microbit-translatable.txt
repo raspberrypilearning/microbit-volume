@@ -1,0 +1,1 @@
+Animation showing the drop-down slider on the 'set volume' block. The value is clicked to reveal the slider and the volume is adjusted by moving the slider to the left or right.
